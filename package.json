@@ -1,6 +1,6 @@
 {
   "name": "@leobragaz/docusaurus-codeblocks",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories.",
   "main": "build/index.js",
   "directories": {
