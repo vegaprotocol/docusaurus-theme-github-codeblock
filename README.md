@@ -1,4 +1,4 @@
-Docusaurus Theme GitHub Codeblock ![Test Changes](https://github.com/saucelabs/docusaurus-theme-github-codeblock/workflows/Test%20Changes/badge.svg?branch=main)
+Docusaurus Theme GitHub Codeblock ( 🪛 Patched fork)
 =================================
 
 A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories.
@@ -10,7 +10,7 @@ A Docusaurus v2 plugin that supports referencing code examples from public GitHu
 First, add the theme plugin to your dependencies:
 
 ```sh
-npm install @saucelabs/theme-github-codeblock
+npm install @leobragaz/theme-github-codeblock-patched-fork
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Add the theme plugin to your list of themes in the `docusaurus.config.js`:
 ```js
     // ...
     themes: [
-        '@saucelabs/theme-github-codeblock'
+        '@leobragaz/theme-github-codeblock-patched-fork'
     ],
     // ...
 ```
@@ -44,3 +44,5 @@ The plugin will download the code and display the desired lines:
 ---
 
 If you are interested contributing to this project, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+NOTE: This is a fork of the original project, since it's not maintained anymore. It contains a patch to work with docusaurus `v2.0.0-beta.18`.
