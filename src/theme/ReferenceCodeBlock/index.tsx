@@ -53,7 +53,7 @@ async function fetchCode ({ url, fromLine, toLine }: GitHubReference, fetchResul
 
     try {
         res = await fetch(url)
-    } catch (err) {
+    } catch (err: any) {
         return fetchResultStateDispatcher({ type: 'error', value: err })
     }
 
