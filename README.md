@@ -10,7 +10,7 @@ A Docusaurus v2 plugin that supports referencing code examples from public GitHu
 First, add the theme plugin to your dependencies:
 
 ```sh
-npm install @leobragaz/theme-github-codeblock-patched-fork
+npm install @leobragaz/docusaurus-codeblocks
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Add the theme plugin to your list of themes in the `docusaurus.config.js`:
 ```js
     // ...
     themes: [
-        '@leobragaz/theme-github-codeblock-patched-fork'
+        '@leobragaz/docusaurus-codeblocks'
     ],
     // ...
 ```
