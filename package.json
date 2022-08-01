@@ -1,6 +1,6 @@
 {
-  "name": "@leobragaz/docusaurus-codeblocks",
-  "version": "0.1.5",
+  "name": "@vegaprotocol/docusaurus-theme-github-codeblock",
+  "version": "0.1.6",
   "description": "A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories.",
   "main": "build/index.js",
   "directories": {
@@ -9,30 +9,27 @@
   },
   "scripts": {
     "build": "tsc",
-    "release": "release-it --github.release --ci --npm.skipChecks --no-git.requireCleanWorkingDir",
-    "test": "jest",
+    "test": "jest --no-coverage",
     "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saucelabs/docusaurus-code-references.git"
+    "url": "git+https://github.com/vegaprotocol/docusaurus-theme-github-codeblock.git"
   },
   "keywords": [
-    "docusarus"
+    "docusaurus"
   ],
-  "author": "Christian Bromann <christian@saucelabs.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saucelabs/docusaurus-code-references/issues"
+    "url": "https://github.com/vegaprotocol/docusaurus-theme-github-codeblock/issues"
   },
-  "homepage": "https://github.com/saucelabs/docusaurus-code-references#readme",
+  "homepage": "https://github.com/vegaprotocol/docusaurus-theme-github-codeblock#readme",
   "devDependencies": {
     "@types/jest": "^27.0.0",
     "@types/node": "^14.11.8",
     "@types/react": "^16.9.52",
     "@types/recursive-readdir": "^2.2.0",
     "jest": "^26.6.3",
-    "release-it": "^14.1.0",
     "ts-jest": "^26.4.4",
     "typescript": "^4.0.3"
   },

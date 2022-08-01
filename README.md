@@ -3,6 +3,8 @@ Docusaurus Theme GitHub Codeblock ( 🪛 Patched fork)
 
 A Docusaurus v2 plugin that supports referencing code examples from public GitHub repositories.
 
+NOTE: This is a fork of the original project, since it's not maintained anymore. It contains a patch to work with docusaurus `v2.0.1`.
+
 > Note: this theme plugin requires [Docusaurus v2](https://v2.docusaurus.io/)
 
 ## Install
@@ -10,7 +12,7 @@ A Docusaurus v2 plugin that supports referencing code examples from public GitHu
 First, add the theme plugin to your dependencies:
 
 ```sh
-npm install @leobragaz/docusaurus-codeblocks
+npm install @vegaprotocol/docusaurus-theme-github-codeblocks
 ```
 
 ## Usage
@@ -20,7 +22,7 @@ Add the theme plugin to your list of themes in the `docusaurus.config.js`:
 ```js
     // ...
     themes: [
-        '@leobragaz/docusaurus-codeblocks'
+        '@vegaprotocol/docusaurus-theme-github-codeblock'
     ],
     // ...
 ```
@@ -45,4 +47,6 @@ The plugin will download the code and display the desired lines:
 
 If you are interested contributing to this project, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-NOTE: This is a fork of the original project, since it's not maintained anymore. It contains a patch to work with docusaurus `v2.0.0-beta.18`.
+# See also
+- [saucelabs/docusaurus-theme-github-codeblock](https://github.com/saucelabs/docusaurus-theme-github-codeblock) - the original plugin
+- [bragaz/docusaurus-theme-github-codeblock](https://github.com/bragaz/docusaurus-theme-github-codeblock) - fix an incompatibility with docusaurus `v2.0.0-beta.18`
